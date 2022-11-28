@@ -1,0 +1,31 @@
+h1 {
+   font-size: 150 px;
+   font-weight: bold;
+   color: gold;
+   background-color: royalblue
+}
+.introduction {
+  background-color: royalblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  flex-wrap: wrap;
+  flex-grow: inherit;
+  width: auto;
+  height: auto;
+}
+button {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  font-size: x-large;
+  color: gold;
+  padding: 15px;
+  cursor: pointer;
+}
+.headerButtons {
+  display: flex;
+    flex-wrap: wrap;
+
+}
