@@ -3,20 +3,32 @@
 
 
 
-<mat-grid-list class="destinations">
-
-  <mat-grid-tile>Tile 1 </mat-grid-tile>
-  <mat-grid-tile>Tile 2 </mat-grid-tile>
-  <mat-grid-tile>Tile 3 </mat-grid-tile>
-  <mat-grid-tile>Tile 4 </mat-grid-tile>
-
-</mat-grid-list>
 
 
 
 
 
-<!-- twilio https://freetts.com/ joanna and kendra voices. and uk voice brian.
+
+<!--
+https://i.pinimg.com/736x/21/3b/bf/213bbf59e1f007cb1493631a5c0456a9--sci-fi-city-space-illustration.jpg
+
+https://i.pinimg.com/originals/cb/d8/c1/cbd8c1efea89850c29ff9abab90c72ee.jpg
+
+https://cg0.cgsociety.org/uploads/images/medium/degerardo-some-kind-of-sci-fi--1-c327b5eb-4gep.jpg -->
+
+<!--
+
+destination: [{location:hawaii, hotelOne:ritz, hotelOnePrice:300},
+  ]
+
+in {{destination.hawaii}} the {{destination.hotelOne}} costs {{}}
+
+<div *ngFor="let item of destination">
+  <p>{{item.location}} </p>
+  <button (click)="loctionChosen = item.location"></button>
+</div>
+
+twilio https://freetts.com/ joanna and kendra voices. and uk voice brian.
 will need to login to use website and choose and pay for vacation.
 picking destination, hotels, price bundles, space flights and rooms.
 planets and locations on planets. fun names! select cool pics. sound effects?
@@ -34,7 +46,106 @@ board of directorsx funny pics, about us founder is elond musk in iron man suit
 login page home page
 
 then a travel now option that will take you to destination and play either video or walkthrough
-like zen garden idea, -->
+like zen garden idea,
+
+
+
+
+
+
+
+vacationArray = [
+{destination:"", travelPrice:"", economyRoomPrice:"", }
+
+{destination: ""}
+]
+vacatuibArray.travelprice + vacationArray.hotelprice
+return
+
+
+...........................
+
+destinations current hardcoded options: New Disney, Assgard, NiteNite City,
+
+
+travel options:
+
+
+
+
+
+
+..........................
+
+
+
+
+
+
+ admin panel needs log in and sign up form. authentication
+ It needs form for creating new destinations, travel options, and accomidations
+ needs panel where can look at all trip data and revenue streams and sources
+datasets need to be able to be filtered by things want to see in admin panel
+
+
+
+
+
+customer needs login page. needs form.
+
+
+destinations options add nothing to price or confirm  anything other than interest in travel and accommodations in that destination category
+
+  travel options class,    accommodations class
+
+
+
+each class needs: keyid, availability time frame?, price, description, available booking spaces
+
+
+
+
+
+accommodations can be completely booked. seats on travel can be booked. they reset every 3 hours
+
+time of day determines destinations/travel/accommodations available? future addition
+
+
+
+
+
+start with hard code designing the code to offer new destinations and accommodations on admin panel
+
+deactivate and activate different options depending on booked status or time of day effects?
+
+destinations have sub objects as part of an object root. objects and sub/children objects.  as in destinations and the accommodations available in that destination. object root trees
+
+a trip to be paid for will consist of a combination of multiple classes.
+
+every class needs keys ids so that they can be organized in database for admin panel to sort and look at
+so customers will eventually? need keyids as well.
+
+
+
+foreign key
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
