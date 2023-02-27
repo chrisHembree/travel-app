@@ -1,6 +1,14 @@
 
+<p>Please select the destination of your choice!  </p>
 
 
+<div *ngFor="let destination of destinations">
+
+  <h1>{{destination.name}}</h1>
+<h2>{{destination.description}}</h2>
+ <img [src]="destination.imagePath" >
+
+</div>
 
 
 
@@ -10,14 +18,6 @@
 
 
 <!--
-https://i.pinimg.com/736x/21/3b/bf/213bbf59e1f007cb1493631a5c0456a9--sci-fi-city-space-illustration.jpg
-
-https://i.pinimg.com/originals/cb/d8/c1/cbd8c1efea89850c29ff9abab90c72ee.jpg
-
-https://cg0.cgsociety.org/uploads/images/medium/degerardo-some-kind-of-sci-fi--1-c327b5eb-4gep.jpg -->
-
-<!--
-
 destination: [{location:hawaii, hotelOne:ritz, hotelOnePrice:300},
   ]
 
