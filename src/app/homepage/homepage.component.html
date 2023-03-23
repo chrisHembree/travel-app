@@ -1,6 +1,16 @@
 
 <p>Please select the image of the destination of your choice! The stars await!   </p>
 
+<mat-horizontal-stepper>
+
+ <mat-step>  </mat-step>
+
+</mat-horizontal-stepper>
+
+
+
+
+
 
 
 <div *ngFor="let destination of destinations">
@@ -8,7 +18,7 @@
 
 <h2>{{destination.description}}</h2>
 
- <img [src]="destination.imagePath" class="destinations">
+ <img [src]="destination.imagePath" class="destinationsimage">
 <hr>
 </div>
 
