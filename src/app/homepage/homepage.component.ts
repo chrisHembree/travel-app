@@ -9,6 +9,9 @@ import { travelOptions } from './model.travelOptions';
   templateUrl: './homepage.component.html',
   styleUrls: ['./homepage.component.css']
 })
+
+
+
 export class HomepageComponent implements OnInit {
 
   destinations= [
@@ -29,19 +32,11 @@ Accomodations: Accomodations[] = [];
 
 travelOptions: travelOptions[] = [];
 
-
-
-
-
-
   constructor() {
-
-
-
 
    }
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+
   }
 
 

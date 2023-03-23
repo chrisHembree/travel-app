@@ -1,15 +1,18 @@
 
-<p>Please select the destination of your choice!  </p>
+<p>Please select the image of the destination of your choice! The stars await!   </p>
+
 
 
 <div *ngFor="let destination of destinations">
-
   <h1>{{destination.name}}</h1>
-<h2>{{destination.description}}</h2>
- <img [src]="destination.imagePath" >
 
+<h2>{{destination.description}}</h2>
+
+ <img [src]="destination.imagePath" class="destinations">
+<hr>
 </div>
 
+<p> What is your preference? </p>
 
 
 

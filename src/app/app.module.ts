@@ -10,7 +10,9 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { LoginComponent } from './login/login.component';
 import { AdminComponent } from './admin/admin.component';
 import { MatGridListModule } from '@angular/material/grid-list';
-
+import { Routes, RouterModule } from '@angular/router';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,9 @@ import { MatGridListModule } from '@angular/material/grid-list';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatGridListModule,
+    RouterModule,
+    MatFormFieldModule,
+    FormsModule,
 
   ],
   providers: [],
