@@ -13,6 +13,9 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { Routes, RouterModule } from '@angular/router';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
+import { MatStepperModule } from '@angular/material/stepper';
+
+
 
 @NgModule({
   declarations: [
@@ -32,7 +35,7 @@ import { FormsModule } from '@angular/forms';
     RouterModule,
     MatFormFieldModule,
     FormsModule,
-
+    MatStepperModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
