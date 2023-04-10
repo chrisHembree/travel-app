@@ -33,14 +33,14 @@ export class Accomodations {
 // "https://th.bing.com/th?id=OIF.Ul37mG%2b765zP9ziTBeNsgw&pid=ImgDet&rs=1", 3, 2000
 
 
-// "The Mickey suites", "Positioned in the top of the spire of the New Disney castle and with your own cartoon butler and fairy godmother, magic has finally made it to the new frontiers of space!",
+// "The Mouse Suites", "Positioned in the top of the spire of the New Disney castle and with your own cartoon butler and fairy godmother, magic has finally made it to the new frontiers of space!",
 // "https://c2.staticflickr.com/6/5055/5392597311_b8b8de9210_b.jpg", 4, 45000
 
 
 
 // nitenitecity accomodations:
 
-// "The No-tell Motel", "As long as you're not asking what the sounds coming from the other room are, No one is asking you why you're booking an an hourly room under a pseudonym! Enjoy! or don't, if that's your thing.",
+// "The No-tell Motel", "As long as you're not asking what the sounds coming from the other rooms are, No one is asking you why you're booking an an hourly room under a pseudonym! Enjoy! or don't, if that's your thing.",
 // "https://thumb.sfmlab.com/item-preview/projectfile/No_Tell_Hotel_Room_03_thumb.detail.png", 5, 3000
 
 

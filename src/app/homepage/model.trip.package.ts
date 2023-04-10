@@ -4,7 +4,10 @@ import { travelOptions } from './model.travelOptions';
 
 export class Trip {
 
-  Trip = {
+  public purchase_token: string | undefined;
+
+  constructor(purchase_token: string) {
+    this.purchase_token = purchase_token;
 
 
 
