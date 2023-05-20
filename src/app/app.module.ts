@@ -24,7 +24,8 @@ import { MatStepperModule } from '@angular/material/stepper';
     HeaderComponent,
     AboutUsComponent,
     LoginComponent,
-    AdminComponent
+    AdminComponent,
+
   ],
   imports: [
     BrowserModule,

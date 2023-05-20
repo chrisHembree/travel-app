@@ -21,7 +21,8 @@ export class ContentserviceService {
     imagePath:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ec7d26b1-d557-47c1-a877-6050004d2fc2/dbb7hcs-1f9e8f0a-c4c7-4fc9-baf6-9e075ce86e30.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VjN2QyNmIxLWQ1NTctNDdjMS1hODc3LTYwNTAwMDRkMmZjMlwvZGJiN2hjcy0xZjllOGYwYS1jNGM3LTRmYzktYmFmNi05ZTA3NWNlODZlMzAuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-7-iEaeDDddcIw8RSKsKr7t8JpLF4DYv6ZQzuOVtQ28",
     id:3}]
 
-  travel_options=[{name: "The Space Bus", description: "The perfect transportation for those who don't want budgetary contraints to keep you from exploring the cosmos! Destinations involving more than 1 month travel time inadvisable.",
+  travel_options=[
+    {name: "The Space Bus", description: "The perfect transportation for those who don't want budgetary contraints to keep you from exploring the cosmos! Destinations involving more than 1 month travel time inadvisable.",
   imagePath: "https://ak3.picdn.net/shutterstock/videos/24144673/thumb/1.jpg", id: 1 , price: 2500},
 
 
@@ -35,20 +36,20 @@ export class ContentserviceService {
 ]
 
 
-  accomodations=[
+  assgardAccommodations=[
 
-    // assgard accomodations
+    // assgard accommodations
 
     {name: "floki's hovel", description: "Have you ever wondered how the peasants among the norse gods lived? No more! Floki's hovel offers all the rustic charm of a peasant in Assgard!",
     imagePath: "https://i.pinimg.com/736x/5f/9a/7f/5f9a7f374f2083d6c94a652e80d585de.jpg", id: 1, price: 10000,},
 
 
-    {name: "Odin's palace", description: "To drink with the heroes of legend while being waited on by Valkyries, to raise a horn to the Allfather, THAT is what is best in life! The highest rated accomodation on record",
+    {name: "Odin's palace", description: "To drink with the heroes of legend while being waited on by Valkyries, to raise a horn to the Allfather, THAT is what is best in life! The highest rated accommodation on record",
     imagePath: "https://staticdelivery.nexusmods.com/images/110/3587738-1423249901.jpg", id: 2, price: 500000,},
+  ]
 
-
-
-    // newdisney accomodations
+newDisneyAccomodations=[
+    // newdisney accommodations
 
     {name: "New Disney Motel", description: "Traveling on a budget? Need a low cost way to experience New Disney? The NewDisney Motel has you covered! No expensive trademarks, few amenities, but just enough charm!",
     imagePath: "https://th.bing.com/th?id=OIF.Ul37mG%2b765zP9ziTBeNsgw&pid=ImgDet&rs=1", id: 3, price: 2000},
@@ -57,8 +58,10 @@ export class ContentserviceService {
     {name:"The Mouse Suites", description: "Positioned in the top of the spire of the New Disney castle and with your own cartoon butler and fairy godmother, magic has finally made it to the new frontiers of space!",
     imagePath: "https://c2.staticflickr.com/6/5055/5392597311_b8b8de9210_b.jpg", id: 4, price: 45000},
 
+]
 
-    // nitenitecity accomodations
+niteNiteCityAccomodations=[
+    // nitenitecity accommodations
 
     {name: "The No-tell Motel", description: "As long as you're not asking what the sounds coming from the other rooms are, No one is asking you why you're booking an an hourly room under a pseudonym! Enjoy! or don't, if that's your thing.",
     imagePath: "https://thumb.sfmlab.com/item-preview/projectfile/No_Tell_Hotel_Room_03_thumb.detail.png", id: 5, price: 3000},

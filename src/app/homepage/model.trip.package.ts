@@ -1,6 +1,6 @@
-import { Accomodations } from './model.Accomodations';
 import { Destination } from './model.destinations';
 import { travelOptions } from './model.travelOptions';
+import { Accommodation } from './model.accommodation';
 
 export class Trip {
 

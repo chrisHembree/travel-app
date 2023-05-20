@@ -1,4 +1,4 @@
-export class Accomodations {
+export class Accommodation {
 
   public name: string | undefined;
   public description: string | undefined;
@@ -14,9 +14,3 @@ export class Accomodations {
     this.price = price;
   }
 }
-
-
-
-
-
-

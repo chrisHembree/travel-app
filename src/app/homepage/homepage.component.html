@@ -1,16 +1,12 @@
 
-<p>Please select the image of the destination of your choice! The stars await!   </p>
 
-<mat-horizontal-stepper>
+<div>
+<mat-horizontal-stepper [labelPosition]="'bottom'" >
 
- <mat-step>  </mat-step>
-
-</mat-horizontal-stepper>
-
-
-
-
-
+ <mat-step label="destination">
+  <p>Please select the destination of your choice! The stars await!   </p>
+<div>
+  <!-- destination options -->
 
 
 <div *ngFor="let destination of destinations">
@@ -23,6 +19,54 @@
 </div>
 
 <p> What is your preference? </p>
+
+  <button matStepperNext>Next</button>
+</div>
+ </mat-step>
+
+
+<mat-step label="travel option">
+<p> Select the method of travel that you prefer!  </p>
+
+
+<div>
+  <!-- travel options -->
+  <div *ngFor="let travelOption of travelOptions">
+    <h1>{{travelOption.name}}</h1>
+
+  <h2>{{travelOption.description}}</h2>
+
+   <img [src]="travelOption.imagePath" class="travelOptionimage">
+  <hr>
+  </div>
+
+
+  <p> What is your preference? </p>
+  <button matStepperPrevious>previous</button>
+  <button matStepperNext>Next</button>
+</div>
+</mat-step>
+
+<mat-step label="accommodation">
+<p> Where would you like to stay on your trip? </p>
+
+<div>
+  <!-- accommodations -->
+  <h1>input destination</h1>
+  <button matStepperPrevious>previous</button>
+</div>
+
+</mat-step>
+
+
+
+
+
+
+</mat-horizontal-stepper>
+
+</div>
+
 
 
 
@@ -96,7 +140,7 @@ travel options:
 
 
  admin panel needs log in and sign up form. authentication
- It needs form for creating new destinations, travel options, and accomidations
+ It needs form for creating new destinations, travel options, and accommodations
  needs panel where can look at all trip data and revenue streams and sources
 datasets need to be able to be filtered by things want to see in admin panel
 
